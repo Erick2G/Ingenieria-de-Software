@@ -1,6 +1,6 @@
 class Juego:
 	def __init__(self):
-		self.score = [{'puntos':0,'ventaja': False},{'puntos':0,'ventaja': False}]
+		self.score = [{'puntos':0},{'puntos':0}]
 
 	def setScore(self, uno, dos):
 		self.score[0]['puntos']=uno
