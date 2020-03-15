@@ -22,5 +22,3 @@ class Juego:
 			return 'empate'
 		else:
 			return str(self.score[0]['puntos'])+' '+str(self.score[1]['puntos'])
-
-		return ganador
